@@ -40,6 +40,16 @@ Appentanly, as I studied more about webscraping, I realized how naive I was as a
  | Inglewood | 143 |
  | Irvine | 518 |
  | Santa Monica | 138 |
+ | Total | 1969 |
+ 
+ # EDA
+ 
+ 1. Distribution of Data by numeric features.
+ ![](plot/Distribution_of_Data.png)
+ 
+ 2. Distribtuion of House Values by three different types
+ (red:Townhouse, yellow: Condo, blue: Single Family)
+![](plot/Zillow_Price_Distribution_by_House_Type.png)
  
  
  
