@@ -17,7 +17,7 @@ After requesting to get the detail of each hosues 10 times in a row, I was block
 ![](image/urls_list.png)
 
 
-Appentanly, as I studied more about webscraping, I realized how naive I was as a web scarper. I learned that getting blocked by websites is actaully a common problem faced by web scrapers while scraping them. Also, I found out that my problem was using the same IP address when each requesting data, which made Realtorcom notice and block my attempts of webcraping. So I tried to obtain variety of IP address from free websites and rotated IP address for each request, but Realtor.com automatically recognized the free IP adress and blockd my attempts. That means I had to buy IP address otherwise I coudln't get data.  
+Appentanly, as I studied more about webscraping, I realized how naive I was as a web scarper. I learned that getting blocked by websites is actaully a common problem faced by web scrapers while scraping them. Also, I found out that my problem was using the same IP address when each requesting data, which made `realtor.com` notice and block my attempts of webcraping. So I tried to obtain variety of IP address from free websites and rotated IP address for each request, but `realtor.com` automatically recognized the free IP adress and blockd my attempts. That means I had to buy IP address otherwise I couldn't get data.  
 
  *Here are techniques to prevents getting blocked that I learned.*
   1. Rotating IP addresses
@@ -27,7 +27,7 @@ Appentanly, as I studied more about webscraping, I realized how naive I was as a
   5. Reducing the crawling rate
   
   
- Since I had only 2 days left to finish my capstone, I had to move on and expreminet buyng and rotating IP addresses later and focuse on getting data related to house values. Fortuntately, I found the webserivce that provdies Zillow data, that's how I got LA's house data.
+ Since I had only 2 days left to finish my capstone, I had to move on and do expreminet of buyng and rotating IP addresses later after the capstone week and focuse on getting data related to house values. Fortuntately, I found the webserivce that provdies Zillow data, that's how I got LA's house data.
  
  
  
