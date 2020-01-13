@@ -49,10 +49,44 @@ Appentanly, as I studied more about webscraping, I realized how naive I was as a
  
  2. Distribtuion of House Values by three different types
  (red:Townhouse, yellow: Condo, blue: Single Family)
-![](plot/zillow_price.png.png)
+![](plot/Zillow_Price_Distribution_by_House_Type.png)
 As the observation on the house value's distribtuion, single family house values are widely distributed with the average mean of $1M. 
 
-3. For a
+3. Distribtuion of House values by City and Types
+![](plot/Average_House _Values_by_City_and_Type.png)
+From the above the distribution, it was surprising that LA single's family house values are significantly lower than Irvine. 
+
+4. Distirbution of First Schools with ratings by City
+![](plot/Distribution of Number_of_House_by_First_School_Grade.png)
+![](plot/first_school_distribtuion.png)
+From the observation of this plot, LA's first schools are normally distributed by their rating, while Irvine highly distributes the first school with high rating.
+
+# Hypothesis Test
+
+I knew that Irvine has many great schools so that's why Irvine's house values are high. However, I suspcted that if comparing single family house values in LA that are located near first schools wiht high ratings to ones in Irvine, there were no difference in the average house values between LA and Irvine. 
+
+- Null Hypothesis: No difference in average house value between LA and Irvine after selecting data that has first school rating that is greater than 7. (LA data: 129,  Irvine data: 246)
+
+- Alternative Hypothesis: They are different.
+
+- Significant Level: 20%Non-Parametrics:Mann-Whitney Signed Rank Test
+
+![](plot/LA_House_Value_Distribution.png)
+![](plot/Irvine_House_Value_Distribution.png)
+
+The selective data for hypothesis testing is not nomarlly distributed, so I can't use t-test but Mann-Whitney Signed Rank Test (Non-Parametrics test)
+
+Number of LA wins : 4979
+Number of Irvine wins: 26755
+Using stats.mannwhitneyu(Irvine, LA, alternative =‘greater’), P-value for Irvine<LA is almost 0
+
+My null hypothesis should be rejected
+
+
+
+
+
+
  
  
  
