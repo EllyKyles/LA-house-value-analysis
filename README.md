@@ -49,7 +49,10 @@ Appentanly, as I studied more about webscraping, I realized how naive I was as a
  
  2. Distribtuion of House Values by three different types
  (red:Townhouse, yellow: Condo, blue: Single Family)
-![](plot/Zillow_Price_Distribution_by_House_Type.png)
+![](plot/zillow_price.png.png)
+As the observation on the house value's distribtuion, single family house values are widely distributed with the average mean of $1M. 
+
+3. For a
  
  
  
