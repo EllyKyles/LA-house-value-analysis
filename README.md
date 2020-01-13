@@ -29,6 +29,18 @@ Appentanly, as I studied more about webscraping, I realized how naive I was as a
   
  Since I had only 2 days left to finish my capstone, I had to move on and do expreminet of buyng and rotating IP addresses later after the capstone week and focuse on getting data related to house values. Fortuntately, I found the webserivce that provdies Zillow data, that's how I got LA's house data.
  
+ - About Data
+ 1969 data, 19 features
+ features: address, price, beds, baths, sqft, views, saves, type, history of price, school, Zillow prediction and so on.
+ 
+ | City | # number of data |
+ | --- | --- |
+ | LA  | 758 |
+ | Culver City | 44 |
+ | Inglewood | 143 |
+ | Irvine | 518 |
+ | Santa Monica | 138 |
+ 
  
  
  
