@@ -58,7 +58,9 @@ From the above the distribution, it was surprising that LA single's family house
 
 4. Distirbution of First Schools with ratings by City
 ![](plot/Distribution of Number_of_House_by_First_School_Grade.png)
+
 ![](plot/first_school_distribtuion.png)
+
 From the observation of this plot, LA's first schools are normally distributed by their rating, while Irvine highly distributes the first school with high rating.
 
 # Hypothesis Test
